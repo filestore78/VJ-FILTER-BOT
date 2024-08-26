@@ -296,7 +296,7 @@ URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 
 # Rename Info : If True Then Bot Rename File Else Not
 
-RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or False
+RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
 
 
 
